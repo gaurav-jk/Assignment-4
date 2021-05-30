@@ -1,0 +1,137 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: orangered;
+}
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One',cursive;
+    color: white;
+}
+span{
+    color: green;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+}
+a:hover{
+    color: whitesmoke;
+    transition: 1s;
+}
+img{
+    width: 100%;
+    height: 35pc;
+    margin-top: -16px;
+}
+.button1{
+    width: 80% !important;
+    height: 20% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+.buttons {
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin:auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button1{
+    font-weight: bolder;
+    margin-top: 0;
+    width: 60%;
+    padding: 10px;
+    min-height: 60px;
+    background-color: rgb(89, 199, 39);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.button1:hover{
+    background-color: rgb(255, 102, 0);
+}
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+        justify-content: space-between ;
+}
+.container1,.container2{
+    align-items: center;
+    font-family: sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    justify-content: center;
+    /* border: 1px solid rgb(233, 10, 10); */
+    margin: 1%;
+    padding: 0px 0px;
+}
+.box{
+    width:20%;
+    height: 35%;
+    box-sizing: border-box;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(41, 109, 177);
+    margin: 1%;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow:  0 0 25px rgb(247, 111, 32);
+}
+.image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 300px;
+}
+.para{
+    width:100% ;
+    height: 125px;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    font-weight: bolder;
+}
